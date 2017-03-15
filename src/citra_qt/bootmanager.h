@@ -63,6 +63,8 @@ public:
   void MakeCurrent() override;
 private:
   GGLWidgetInternal *child_;
+
+  EmuThread *emu_thread_;
 };
 
 #endif // CITRA_QT_BOOTMANAGER_H

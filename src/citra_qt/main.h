@@ -27,6 +27,7 @@ public:
 
 private:
   bool InitializeSystem();
+  bool LoadROM(const std::string &filename);
   void BootGame(const std::string &filename);
   void ShutdownGame();
 
